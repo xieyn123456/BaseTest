@@ -1,0 +1,65 @@
+{
+	"serials": 
+	{
+		"band": "~~RND:0.2-0.7~~"
+	},
+	"data": 
+	{
+		"insight": 
+		{
+			"test_attributes": 
+			{
+				"unit_serial_number": "~~RND:1-16~~",
+				"test_result": "~~L11,2~~",
+				"uut_start": "~~now-30~~",
+				"uut_stop": "~~now+30~~"
+			},
+			"test_station_attributes": 
+			{
+				"line_id": "~~D1,0~~",
+				"station_id": "~~D2~~",
+				"fixture_id": "~~C1534~~",
+				"head_id": "~~C1535~~",
+				"software_name": "~~C1567~~",
+				"software_version": "~~C1537~~"
+			},
+			"uut_attributes": 
+			{
+				"STATION_STRING": "",
+				"fixture_id": "~~C1534~~",
+				"side_fire_vendor_mark": "~~C1560~~",
+				"assy_start_time": "~~NOW-15~~",
+				"assy_stop_time": "~~NOW+15~~",
+				"band_sn": "~~C1521~~",
+				"tossing_item": "~~C1522~~",
+				"rework_count": "~~C1568~~",
+				"rework_item": "~~C1569~~"
+			},
+			"results": 
+			[
+				{
+					"result": "pass",
+					"test": "assy_ct",
+					"units": "s",
+					"value": "~~C1565~~"
+				},
+				{
+					"result": "pass",
+					"test": "glue_open_time",
+					"units": "s",
+					"value": "~~C1563~~"
+				},
+				{
+					"result":"pass",
+					"test":"side_fire_holding_time",
+					"units":"s",
+					"value":"~~C1564~~"
+				}
+			]
+		},
+		"items": 
+		{
+			~~C1590~~
+		}
+	}
+}
